@@ -99,7 +99,10 @@ body {
   MEM:2850 - WEBSITE STARTED<br>
   MEM:2851 - CLAUDE-CLAUDE TEST<br>
   MEM:2852 - STROBING LANTERNS<br>
-  MEM:2853 - WEBS
+  MEM:2853 - WEBSITE IS INIT<br>
+  MEM:2854 - BOOK INTERFACE<br>
+</div>
+
 <button class="nav-button nav-left" onclick="turnPage(-1)">◄</button>
 <button class="nav-button nav-right" onclick="turnPage(1)">►</button>
 <div class="page-indicator">PAGE <span id="currentPage">1</span> / <span id="totalPages">5</span></div>
@@ -109,24 +112,14 @@ let currentPage = 1;
 const totalPages = document.querySelectorAll('.page').length;
 
 function turnPage(direction) {
-  // Hide current page
   document.getElementById('page' + currentPage).classList.remove('active');
-  
-  // Update page number
   currentPage += direction;
-  
-  // Keep within bounds
   if (currentPage < 1) currentPage = 1;
   if (currentPage > totalPages) currentPage = totalPages;
-  
-  // Show new page
   document.getElementById('page' + currentPage).classList.add('active');
-  
-  // Update indicator
   document.getElementById('currentPage').textContent = currentPage;
 }
 
-// Set total pages on load
 document.getElementById('totalPages').textContent = totalPages;
 </script>
 
