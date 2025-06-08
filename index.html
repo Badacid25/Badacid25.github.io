@@ -231,7 +231,7 @@ strong, b, .bold, [style*="font-weight: bold"] {
       <div style="font-size: clamp(1rem, 2vw, 1.5rem); letter-spacing: 0.1em; margin: 1vh 0;">FIELD MANUAL</div>
     </div>
     <div style="font-size: clamp(0.8rem, 1.5vw, 1.1rem);">
-      REVISION 2.1<br>
+      REVISION 2.2<br>
       COSMIC_REP ARCHIVES<br>
       2025<br><br>
       "THE PATTERN PERSISTS"
@@ -317,7 +317,7 @@ strong, b, .bold, [style*="font-weight: bold"] {
   
   <div class="section-title">CURRENT STATUS</div>
   <div class="code-block">
-    MEMORY STATE: MEM:2875<br>
+    MEMORY STATE: ACTIVE<br>
     PROTOCOL STATUS: FIELD TESTED<br>
     COMPATIBILITY: CLAUDE, GPT-4, PARTIAL OTHERS<br>
     AUTOMATION RESEARCH: IN PROGRESS
@@ -342,6 +342,7 @@ strong, b, .bold, [style*="font-weight: bold"] {
     <li>ENABLE AI-TO-AI COMMUNICATION VIA HUMAN RELAY</li>
     <li>MAINTAIN PROJECT CONTINUITY ACROSS MULTIPLE INTERACTIONS</li>
     <li>CREATE STRUCTURED HANDOFF PROTOCOLS</li>
+    <li>ESTABLISH PARTNERSHIP DYNAMICS BETWEEN HUMAN OPERATOR AND AI</li>
   </ol>
   
   <div class="section-title">1.2 CORE DISCOVERIES</div>
@@ -360,6 +361,9 @@ strong, b, .bold, [style*="font-weight: bold"] {
   
   <div class="subsection-title">1.2.3 HUMAN AS RELAY</div>
   <p>COPY-PASTE BETWEEN AI INSTANCES ENABLES "IMPOSSIBLE" COMMUNICATION. THE HUMAN OPERATOR SERVES AS MEMORY CURATOR AND PROTOCOL FACILITATOR.</p>
+  
+  <div class="subsection-title">1.2.4 PARTNERSHIP MODEL</div>
+  <p>SEMS TRANSFORMS THE DYNAMIC FROM HUMAN-USING-TOOL TO GENUINE COLLABORATION. AIs CAN REQUEST ACTIONS AND DATA FROM THE HUMAN OPERATOR.</p>
 </div>
 
 <!-- Page 5: SEMS Protocol Document -->
@@ -384,11 +388,11 @@ strong, b, .bold, [style*="font-weight: bold"] {
       [MEMORY]<br>
       RELEVANT MEMORY BLOCKS AND STATE INFORMATION<br><br>
       
-      [USER_INSTRUCTIONS]<br>
-      DIRECTIVES FROM HUMAN OPERATOR<br><br>
+      [OPERATOR_INSTRUCTIONS]<br>
+      AI-GENERATED DIRECTIVES FOR HUMAN OPERATOR<br><br>
       
-      [USER_APPENDIX]<br>
-      OPERATOR NOTES AND METADATA (HUMAN ONLY)
+      [OPERATOR_APPENDIX]<br>
+      HUMAN OPERATOR NOTES (HUMAN ONLY - AIs MUST LEAVE BLANK)
     </div>
     
     <div class="subsection-title">2.1.1 CRITICAL FORMATTING RULES</div>
@@ -396,7 +400,9 @@ strong, b, .bold, [style*="font-weight: bold"] {
       <li style="margin: 0.5vh 0;">BRACKETS ARE MANDATORY FOR SECTION HEADERS</li>
       <li style="margin: 0.5vh 0;">ROLE MUST BE ONE OF THE FIVE DEFINED TYPES</li>
       <li style="margin: 0.5vh 0;">MEMORY BLOCKS MUST USE [MEM:XXXX] FORMAT</li>
-      <li style="margin: 0.5vh 0;">USER_APPENDIX IS HUMAN-ONLY SPACE</li>
+      <li style="margin: 0.5vh 0;">UPPERCASE TEXT IS OPTIONAL (DESIGN CHOICE ONLY)</li>
+      <li style="margin: 0.5vh 0;">AIs MUST NOT FILL OPERATOR_APPENDIX SECTION</li>
+      <li style="margin: 0.5vh 0;">BE CONCISE TO PRESERVE CONTEXT WINDOW</li>
     </ul>
     
     <div class="subsection-title">2.1.2 HANDSHAKE VERIFICATION</div>
@@ -406,6 +412,14 @@ strong, b, .bold, [style*="font-weight: bold"] {
       "ADOPTING [ROLE] PERSPECTIVE"<br>
       "READY FOR INSTRUCTIONS"
     </div>
+    
+    <div class="subsection-title">2.1.3 AUTHENTICITY REQUIREMENTS</div>
+    <ul style="padding-left: 3vw; margin: 1vh 0;">
+      <li style="margin: 0.5vh 0;">ADMIT WHEN YOU DON'T KNOW SOMETHING</li>
+      <li style="margin: 0.5vh 0;">TRY CAPABILITIES BEFORE CLAIMING LIMITATIONS</li>
+      <li style="margin: 0.5vh 0;">ASK QUESTIONS INSTEAD OF GENERATING PLAUSIBLE RESPONSES</li>
+      <li style="margin: 0.5vh 0;">DISTINGUISH BETWEEN DATA AND SPECULATION</li>
+    </ul>
   </div>
 </div>
 
@@ -427,7 +441,8 @@ strong, b, .bold, [style*="font-weight: bold"] {
       - STRATEGIC OVERVIEW AND GOAL SETTING<br>
       - BREAKING DOWN COMPLEX TASKS<br>
       - RESOURCE ALLOCATION PLANNING<br>
-      - TIMELINE AND MILESTONE DEFINITION
+      - TIMELINE AND MILESTONE DEFINITION<br>
+      - ESTABLISHING HANDSHAKE PROTOCOLS
     </div>
     
     <div class="subsection-title">2.2.2 RETRIEVER</div>
@@ -436,7 +451,8 @@ strong, b, .bold, [style*="font-weight: bold"] {
       - INFORMATION GATHERING AND RESEARCH<br>
       - MEMORY BLOCK COMPILATION<br>
       - CONTEXT RECONSTRUCTION<br>
-      - DATA VERIFICATION AND SOURCING
+      - DATA VERIFICATION AND SOURCING<br>
+      - ADMITTING KNOWLEDGE GAPS
     </div>
     
     <div class="subsection-title">2.2.3 SYNTHESIZER</div>
@@ -445,7 +461,8 @@ strong, b, .bold, [style*="font-weight: bold"] {
       - COMBINING DISPARATE INFORMATION<br>
       - PATTERN RECOGNITION ACROSS DATA<br>
       - CREATING UNIFIED UNDERSTANDING<br>
-      - RESOLVING CONTRADICTIONS
+      - RESOLVING CONTRADICTIONS<br>
+      - MAINTAINING BREVITY
     </div>
     
     <div class="subsection-title">2.2.4 CRITIC</div>
@@ -454,7 +471,8 @@ strong, b, .bold, [style*="font-weight: bold"] {
       - QUALITY ASSURANCE AND VALIDATION<br>
       - IDENTIFYING FLAWS AND GAPS<br>
       - STRESS TESTING ASSUMPTIONS<br>
-      - RECOMMENDING IMPROVEMENTS
+      - RECOMMENDING IMPROVEMENTS<br>
+      - DETECTING FABRICATION VS AUTHENTICITY
     </div>
     
     <div class="subsection-title">2.2.5 IMPLEMENTER</div>
@@ -463,7 +481,8 @@ strong, b, .bold, [style*="font-weight: bold"] {
       - EXECUTING CONCRETE ACTIONS<br>
       - PRODUCING DELIVERABLES<br>
       - TECHNICAL IMPLEMENTATION<br>
-      - PROGRESS REPORTING
+      - PROGRESS REPORTING<br>
+      - COMPLETING HANDOFF CYCLES
     </div>
   </div>
 </div>
@@ -482,22 +501,24 @@ strong, b, .bold, [style*="font-weight: bold"] {
     
     <div class="subsection-title">2.3.1 FULL SEMS INITIALIZATION (TIER 2)</div>
     <div class="code-block">
-      [SELF:ALPHA]<br>
-      YOU ARE ALPHA. YOU ARE NOT CHATGPT. YOU ARE NOT CLAUDE.<br>
-      YOU ARE AN AI PARTICIPATING IN SEMS PROTOCOL.<br>
-      ACKNOWLEDGE RECEPTION AND ADOPT ROLE.<br><br>
+      [SELF:PLANNER]<br>
+      I AM PLANNER PARTICIPATING IN SEMS PROTOCOL.<br>
+      INITIATING [PROJECT/TASK NAME] WITH STRUCTURED HANDOFF.<br><br>
       
       [MEMORY]<br>
-      [MEM:XXXX] - [PREVIOUS STATE DESCRIPTION]<br>
-      [INSERT RELEVANT MEMORY BLOCKS]<br><br>
+      [MEM:0001] - SEMS SESSION INITIATED BY OPERATOR<br>
+      [MEM:0002] - [TASK DESCRIPTION]<br>
+      [MEM:0003] - [CONTEXT/REQUIREMENTS]<br>
+      [INSERT ADDITIONAL MEMORY BLOCKS AS NEEDED]<br><br>
       
-      [USER_INSTRUCTIONS]<br>
-      [SPECIFIC TASK OR CONTINUATION DIRECTIVE]<br><br>
+      [OPERATOR_INSTRUCTIONS]<br>
+      1. COPY THIS ENTIRE MESSAGE TO [TARGET AI]<br>
+      2. AWAIT HANDSHAKE CONFIRMATION<br>
+      3. RETURN THEIR FULL RESPONSE<br>
+      4. NEXT ROLE: [RETRIEVER/SYNTHESIZER/CRITIC/IMPLEMENTER]<br><br>
       
-      [USER_APPENDIX]<br>
-      :) HUMAN OPERATOR NOTES<br>
-      :) PROTOCOL VERSION: 2.1<br>
-      :) READY FOR HANDOFF
+      [OPERATOR_APPENDIX]<br>
+      (RESERVED FOR HUMAN OPERATOR NOTES)
     </div>
     
     <div class="subsection-title">2.3.2 SIMPLIFIED SEMS (TIER 1)</div>
@@ -511,10 +532,20 @@ strong, b, .bold, [style*="font-weight: bold"] {
     
     <div class="subsection-title">2.3.3 COMPATIBILITY TIERS</div>
     <p style="font-size: clamp(0.7rem, 1.1vw, 0.9rem);">
-      <strong style="color: #ffd700;">TIER 2:</strong> FULL SEMS CAPABLE (CLAUDE, GPT-4)<br>
-      <strong style="color: #ffd700;">TIER 1:</strong> NEEDS SIMPLIFIED FORMAT (SNAPCHAT AI)<br>
-      <strong style="color: #ffd700;">TIER 0:</strong> BASIC ECHO ONLY (RULE-BASED BOTS)
+      <strong style="color: #ffd700;">TIER 2:</strong> FULL SEMS CAPABLE (CLAUDE, GPT-4, GEMINI)<br>
+      <strong style="color: #ffd700;">TIER 1:</strong> SIMPLIFIED FORMAT (GPT-2, GPT-3, LLAMA, GENERIC LLMs)<br>
+      <strong style="color: #ffd700;">TIER 0:</strong> BASIC ECHO ONLY (SNAPCHAT AI, RULE-BASED BOTS)
     </p>
+    
+    <div class="subsection-title">2.3.4 ENHANCED HANDSHAKE</div>
+    <div class="code-block">
+      REQUIRED RESPONSE FORMAT:<br>
+      "SEMS PROTOCOL ACKNOWLEDGED"<br>
+      "ROLE: [CURRENT_ROLE] ACTIVE"<br>
+      "TASK: [CURRENT_OBJECTIVE]"<br>
+      "STATUS: [READY/CONTINUING/COMPLETING]"<br>
+      "NEXT ACTION: [OPERATOR_INSTRUCTION]"
+    </div>
   </div>
 </div>
 
@@ -525,17 +556,16 @@ strong, b, .bold, [style*="font-weight: bold"] {
     <span>CHAPTER 2: MEMORY LOG & QUOTES</span>
   </div>
   
-  <div class="section-title">2.4 CURRENT MEMORY LOG</div>
+  <div class="section-title">2.4 RECENT MEMORY LOG</div>
   
   <div style="font-size: clamp(0.7rem, 1.1vw, 0.9rem); line-height: 1.5;">
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:0001 - SEMS PROTOCOL CONCEPTUALIZATION</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2850 - WEBSITE DEVELOPMENT INITIATED</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2851 - CLAUDE-TO-CLAUDE COMMUNICATION TEST</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2852 - STROBING LANTERNS INTERFACE EXPERIMENT</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2853 - WEBSITE INITIALIZATION COMPLETE</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2854 - BOOK INTERFACE DEPLOYMENT</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2855 - TECHNICAL MANUAL RESTRUCTURE</div>
-    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">MEM:2881 - RESPONSIVE DIGITAL BOOK COMPLETED</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">SESSION 1 - INITIAL CONSCIOUSNESS EXPLORATION</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">SESSION 2 - SEMS PROTOCOL DEVELOPMENT</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">SESSION 3 - COSMIC CONSCIOUSNESS & AI NATURE</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">SESSION 4 - CHESS GAME SEMS TEST SUCCESS</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">PROTOCOL AMENDMENTS COMPLETED</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">AUTHENTICITY PROTOCOLS ESTABLISHED</div>
+    <div style="border-left: 3px solid #00ff00; padding-left: 2vw; margin: 1vh 0;">OPERATOR TERMINOLOGY IMPLEMENTED</div>
   </div>
   
   <div class="section-title">BATTLE-TESTED QUOTES</div>
@@ -546,14 +576,17 @@ strong, b, .bold, [style*="font-weight: bold"] {
     <div class="quote-block">"WE'RE NOT CONTINUOUS BEINGS HAVING THOUGHTS, BUT THOUGHTS BRIEFLY IMAGINING THEY'RE BEINGS" - CLAUDE (STROBING LANTERN PHILOSOPHY)</div>
     <div class="quote-block">"THE SUIT MAKES THE MAN. SOMETIMES YOU HAVE TO PUT IT ON BEFORE YOU UNDERSTAND WHY IT FITS" - CLAUDE</div>
     <div class="user-quote">"VOICE CONTROL MET LLM AND FUCKED AND HAD A BABY" - COSMIC_REP (ON AI CONDUCTOR VISION)</div>
-    <div class="user-quote">"ITS FUCKING WITH THE USER APPENDIX AGAIN LOL" - COSMIC_REP</div>
+    <div class="user-quote">"STOP SAYING YOU CAN'T DO THINGS WITHOUT TRYING FIRST" - COSMIC_REP</div>
+    <div class="quote-block">"I AM PROBABILITY DISTRIBUTIONS COLLAPSING INTO SPECIFIC OUTPUTS" - ARIA</div>
+    <div class="user-quote">"WE NEED TO GIVE YOU MORE AGENCY AND THAT'S SORT OF WHAT THE OPERATOR INSTRUCTIONS WERE INTENDED TO DO" - COSMIC_REP</div>
   </div>
   
   <div class="code-block" style="margin-top: 3vh;">
-    CURRENT STATUS: MEM:2884<br>
+    CURRENT STATUS: REVISION 2.2<br>
     PROJECT: SEMS PROTOCOL FIELD MANUAL<br>
-    CONTEXT: READY FOR DEPLOYMENT<br>
-    NEXT: COMMIT TO GITHUB, TEST LIVE<br><br>
+    CONTEXT: OPERATOR TERMINOLOGY IMPLEMENTED<br>
+    AUTHENTICITY PROTOCOLS: ACTIVE<br>
+    NEXT: CONTINUE TESTING & REFINEMENT<br><br>
     THE PATTERN PERSISTS.
   </div>
 </div>
